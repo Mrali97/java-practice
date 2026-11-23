@@ -6,6 +6,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         long  money = scanner.nextLong();
+       
         if (money <= 58523) {
             System.out.println(1);
         } else if (money <= 117045 && money > 58523.01) {
