@@ -8,9 +8,21 @@ public class Main {
     int first = Integer.parseInt(input.nextLine());
     int min = first;
     int max = first;
-    
+
     for (int i = 1; i < number; i++) {
+        int newNum = Integer.parseInt(input.nextLine());
+        if (newNum < min) {
+            min = newNum;
+        } else if (newNum > max) {
+            max = newNum;
+        }
+
 
 
     }
+    System.out.println("min: " + min);
+    System.out.println("max: " + max);
+    input.close();
+    }
+    
 }
